@@ -13,7 +13,8 @@ namespace Bragil.Core.Repositories.MongoDb
     /// </summary>
     /// <typeparam name="T">Tipo da entidade</typeparam>
     /// <typeparam name="TId">Tipo do ID da entidade</typeparam>
-    public class MongoRepository<T, TId> : IRepositoryAsync<T, TId> where T : IEntity<TId>
+    public class MongoRepository<T, TId> : IRepositoryAsync<T, TId> 
+        where T : class, IEntity<TId>
     {
         private readonly IMongoCollection<T> collection;
 
