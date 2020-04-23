@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bragil.Core", "Bragil.Core.Shared\Bragil.Core.csproj", "{0239D959-CBB9-42C6-BFCF-754707BCB2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bragil.Core", "Bragil.Core\Bragil.Core.csproj", "{0239D959-CBB9-42C6-BFCF-754707BCB2CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bragil.Core.Repositories.MongoDb", "Bragil.Core.Repositories\Bragil.Core.Repositories.MongoDb.csproj", "{0E543EB6-1E3B-4C2E-AD3F-30A334C6D09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bragil.Core.Repositories.MongoDb", "Bragil.Core.Repositories.MongoDb\Bragil.Core.Repositories.MongoDb.csproj", "{0E543EB6-1E3B-4C2E-AD3F-30A334C6D09A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bragil.Core.Repositories.EntityCore", "Bragil.Core.Repositories.EntityCore\Bragil.Core.Repositories.EntityCore.csproj", "{D3C767CC-2E37-4805-BC6B-023DCE8B0C13}"
 EndProject
